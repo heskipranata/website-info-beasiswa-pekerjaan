@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+  <link rel="stylesheet" href="./style/styele.css">
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar d-flex flex-column">
+    <h4 class="text-white text-center py-4 border-bottom border-light ">Admin Panel</h4>
+    <a href="#"><i class="bi bi-house-door-fill me-2"></i>Home</a>
+    <a href="beasiswa.html"><i class="bi bi-journal-text me-2"></i>Kelola Beasiswa</a>
+    <a href="pekerjaan.html"><i class="bi bi-briefcase-fill me-2"></i>Kelola Pekerjaan</a>
+    <a href="login.html"><i class="bi bi-box-arrow-right me-2"></i>Logout</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2 class="fw-bold fs-2">Halo Minmin 👋,</h2>
+    <h2 class="fw-bold fs-1">Selamat Datang di Dashboard <span class="text-primary">ScholarJob.</span></h2>
+    <p class="text-muted">Berikut ringkasan data yang tersedia di sistem.</p>
+<hr class="mb-4 mt-2" style="border-top: 3px solid #007bff; width: full; border-radius: 5px;">
+
+
+    <div class="row g-4 ">
+        <!-- Card Beasiswa -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-white p-4 border-0 shadow-lg rounded-4" style="background: linear-gradient(135deg, #4e73df, #224abe); transition: transform 0.3s ease;">
+            <div class="card-body text-center">
+              <div class="mb-3">
+                <i class="bi bi-mortarboard-fill" style="font-size: 3rem; opacity: 0.9;"></i>
+              </div>
+              <h1 class="fw-bold display-3 mb-0">1</h1>
+              <p class="fw-medium mt-2 mb-0 fs-5">Total Beasiswa</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Card Pekerjaan -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-white p-4 border-0 shadow-lg rounded-4" style="background: linear-gradient(135deg, #1cc88a, #139c67); transition: transform 0.3s ease;">
+            <div class="card-body text-center">
+              <div class="mb-3">
+                <i class="bi bi-briefcase-fill" style="font-size: 3rem; opacity: 0.9;"></i>
+              </div>
+              <h1 class="fw-bold display-3 mb-0">1</h1>
+              <p class="fw-medium mt-2 mb-0 fs-5">Total Pekerjaan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
